@@ -6,6 +6,7 @@ from flask_bootstrap import Bootstrap5
 from flask_login import LoginManager
 from flask_migrate import Migrate
 from flask_wtf import CSRFProtect
+from flask_login import login_user, login_required, current_user, logout_user
 
 
 from application.database import db,User
